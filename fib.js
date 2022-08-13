@@ -14,6 +14,7 @@ function fibsRec(n, arr = [0,1]) {
 
 
 
+/* doesnt include fibs/fibsRec of 1 and 2 since those two values are given by default */
 
 console.log(fibs(8))  // [0, 1, 1, 2, 3, 5, 8, 13] //
 console.log(fibs(12)) // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89] //
